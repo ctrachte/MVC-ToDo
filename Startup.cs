@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using MvcToDo.Data;
+using Microsoft.EntityFrameworkCore;
 namespace MvcToDo
 {
     public class Startup
@@ -24,8 +25,10 @@ namespace MvcToDo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            
+            services.AddDbContext<MvcToDoContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("MvcToDo")));
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
