@@ -25,10 +25,10 @@ namespace MvcToDo.Migrations
                     b.Property<bool>("Complete")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("CompletedDate")
+                    b.Property<DateTime?>("CompletedDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")

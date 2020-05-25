@@ -9,7 +9,7 @@ using MvcToDo.Data;
 namespace MvcToDo.Migrations
 {
     [DbContext(typeof(MvcToDoContext))]
-    [Migration("20200525163754_InitialCreate")]
+    [Migration("20200525172538_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,10 +27,10 @@ namespace MvcToDo.Migrations
                     b.Property<bool>("Complete")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("CompletedDate")
+                    b.Property<DateTime?>("CompletedDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")

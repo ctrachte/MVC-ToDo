@@ -20561,11 +20561,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

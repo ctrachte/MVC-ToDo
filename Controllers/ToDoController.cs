@@ -58,6 +58,13 @@ namespace MvcToDo.Controllers
         {
             if (ModelState.IsValid)
             {
+                toDo.CompletedDate = null;
+                toDo.CreatedDate = DateTime.Now;
+                if (toDo.Complete == true) {
+                    toDo.CompletedDate = DateTime.Now;
+                } else {
+                    toDo.CompletedDate = null;
+                }
                 _context.Add(toDo);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,6 +104,11 @@ namespace MvcToDo.Controllers
             {
                 try
                 {
+                    if (toDo.Complete == true) {
+                        toDo.CompletedDate = DateTime.Now;
+                    } else {
+                        toDo.CompletedDate = null;
+                    }
                     _context.Update(toDo);
                     await _context.SaveChangesAsync();
                 }

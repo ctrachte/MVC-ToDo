@@ -14,8 +14,8 @@ namespace MvcToDo.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(nullable: true),
-                    CreatedDate = table.Column<DateTime>(nullable: false),
-                    CompletedDate = table.Column<DateTime>(nullable: false),
+                    CreatedDate = table.Column<DateTime>(nullable: true),
+                    CompletedDate = table.Column<DateTime>(nullable: true),
                     Complete = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>

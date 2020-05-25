@@ -21,11 +21,8 @@ C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.TagHelpe
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorCoreGenerate.cache
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorTargetAssemblyInfo.cache
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorTargetAssemblyInfo.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.Views.pdb
@@ -167,3 +164,5 @@ C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\ToDo
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\ToDo\Details.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\ToDo\Edit.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\ToDo\Index.cshtml.g.cs
+C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
