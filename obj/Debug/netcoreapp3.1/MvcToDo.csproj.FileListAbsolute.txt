@@ -19,8 +19,6 @@ C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorAss
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.TagHelpers.input.cache
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.TagHelpers.output.cache
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorCoreGenerate.cache
-C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Caleb\Desktop\projects\MvcToDo\obj\Debug\netcoreapp3.1\MvcToDo.RazorTargetAssemblyInfo.cache

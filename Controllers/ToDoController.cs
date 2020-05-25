@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcToDo.Data;
 using MvcToDo.Models;
+using System.Diagnostics;
+using Microsoft.Extensions.Logging;
 
 namespace MvcToDo.Controllers
 {
     public class ToDoController : Controller
     {
         private readonly MvcToDoContext _context;
+        private readonly ILogger<ToDoController> _logger;
 
-        public ToDoController(MvcToDoContext context)
+        public ToDoController(ILogger<ToDoController> logger, MvcToDoContext context)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: ToDo
@@ -160,6 +164,13 @@ namespace MvcToDo.Controllers
         private bool ToDoExists(int id)
         {
             return _context.ToDo.Any(e => e.Id == id);
+        }
+
+        
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

@@ -1,10 +1,10 @@
 @model IEnumerable<MvcToDo.Models.ToDo>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "My To Do List";
 }
 
-<h1>Index</h1>
+<h1>@ViewData["Title"]</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
