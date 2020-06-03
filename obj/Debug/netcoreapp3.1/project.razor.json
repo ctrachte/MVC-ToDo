@@ -20521,11 +20521,6 @@
   "RootNamespace": "MvcToDo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\ToDo\\Details.cshtml",
       "TargetPath": "Views\\ToDo\\Details.cshtml",
       "FileKind": "mvc"
@@ -20543,11 +20538,6 @@
     {
       "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Caleb\\Desktop\\projects\\MvcToDo\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
