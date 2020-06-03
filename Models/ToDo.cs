@@ -16,6 +16,8 @@ namespace MvcToDo.Models
 
         [DataType(DataType.Date)]
         public DateTime? CompletedDate { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? DueDate { get; set; }
 
         public bool Complete { get; set; }
     }
